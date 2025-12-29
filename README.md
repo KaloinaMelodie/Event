@@ -129,6 +129,21 @@ Ainsi, **chaque nouvel objet issu de la base de données peut disposer instantan
 
 ---
 
+## Technologies Used / Technologies utilisées
+
+| Category / Catégorie | Details / Détails                                 |
+| -------------------- | ------------------------------------------------- |
+| Language / Langage   | **Java**                                          |
+| Application Type     | **Java Web Application**                          |
+| Architecture         | **MVC (Model – View – Controller)**               |
+| Backend              | **Java Servlets**                                 |
+| Frontend View        | **JSP (JavaServer Pages)**                        |
+| ORM Concept          | **Custom Generic ORM (Reflection & Annotations)** |
+| Dynamic Rendering    | **ScriptEngine (HTML & JavaScript generation)**   |
+| Database             | **Postgres Relational Database**               |
+
+---
+
 ## Administrator Backoffice / Backoffice Administrateur
 
 **EN:**
@@ -182,21 +197,6 @@ Les employés utilisent l’application pour gérer les opérations événementi
     * Dépenses totales
     * Bénéfice brut (hors taxes)
     * Bénéfice net
-
----
-
-## Technologies Used / Technologies utilisées
-
-| Category / Catégorie | Details / Détails                                 |
-| -------------------- | ------------------------------------------------- |
-| Language / Langage   | **Java**                                          |
-| Application Type     | **Java Web Application**                          |
-| Architecture         | **MVC (Model – View – Controller)**               |
-| Backend              | **Java Servlets**                                 |
-| Frontend View        | **JSP (JavaServer Pages)**                        |
-| ORM Concept          | **Custom Generic ORM (Reflection & Annotations)** |
-| Dynamic Rendering    | **ScriptEngine (HTML & JavaScript generation)**   |
-| Database             | **Relational Database (SQL-based)**               |
 
 ---
 
