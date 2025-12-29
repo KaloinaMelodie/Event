@@ -1,0 +1,21 @@
+.content h1 {
+    text-align: center; 
+    
+    font-size: 25px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.input-item {
+    display: flex;
+    padding: 10px 50px 10px 50px;
+
+    margin-top: 12px;
+}
+
+.input-item .name {
+    width: 125px;
+}

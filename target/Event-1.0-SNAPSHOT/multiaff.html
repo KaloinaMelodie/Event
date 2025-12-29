@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Affiche de Spectacle</title>
+        <meta charset="UTF-8">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            .poster {
+                width: 400px;
+                margin: 20px auto;
+                border: 1px solid #ccc;
+                padding: 20px;
+                text-align: center;
+            }
+            .header {
+                margin-bottom: 20px;
+            }
+            .venue {
+                margin-bottom: 20px;
+            }
+            .venue h3 {
+                margin-bottom: 5px;
+            }
+            .venue img {
+                margin-bottom: 10px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .date-time {
+                margin-bottom: 10px;
+            }
+            .date-time h4 {
+                margin-bottom: 5px;
+            }
+            .artist {
+                margin-bottom: 20px;
+                display: flex;
+                justify-content: center;
+            }
+            .artist-column {
+                width: 50%;
+            }
+            .artist-item {
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .artist-item img {
+                margin-bottom: 10px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .price {
+                margin-bottom: 20px;
+            }
+            .price-category {
+                margin-bottom: 10px;
+            }
+            .price-category h4 {
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="poster">
+            <div class="header">
+                <h1>Titre du spectacle</h1>
+                <h2>Affiche de Spectacle</h2>
+            </div>
+            <div class="venue">
+                <h3>Lieu 1</h3>
+                <img src="assets/img/photo_lieu.jpg" alt="Photo du lieu 1" width="300" height="200">
+                <div class="date-time">
+                    <h4>Date: <span class="date">Date 1</span></h4>
+                    <h4>Heure: <span class="heure">Heure 1</span></h4>
+                </div>
+            </div>
+            <div class="venue">
+                <h3>Lieu 2</h3>
+                <img src="assets/img/photo_lieu.jpg" alt="Photo du lieu 2" width="300" height="200">
+                <div class="date-time">
+                    <h4>Date: <span class="date">Date 2</span></h4>
+                    <h4>Heure: <span class="heure">Heure 2</span></h4>
+                </div>
+            </div>
+            <div class="artist">
+                <div class="artist-column">
+                    <div class="artist-item">
+                        <img src="assets/img/photo_artiste1.jpg" alt="Photo de l'artiste 1" width="150" height="200">
+                        <span>Nom de l'artiste 1</span>
+                    </div>
+                </div>
+                <div class="artist-column">
+                    <div class="artist-item">
+                        <img src="assets/img/photo_artiste1.jpg" alt="Photo de l'artiste 2" width="150" height="200">
+                        <span>Nom de l'artiste 2</span>
+                    </div>
+                    <div class="artist-item">
+                        <img src="assets/img/photo_artiste1.jpg" alt="Photo de l'artiste 3" width="150" height="200">
+                        <span>Nom de l'artiste 3</span>
+                    </div>
+                </div>
+            </div>
+            <div class="price">
+                <h3>Prix des places:</h3>
+                <div class="price-category">
+                    <h4>VIP: <span class="vip-price">Prix VIP</span></h4>
+                </div>
+                <div class="price-category">
+                    <h4>Réservé: <span class="reserved-price"><% out.print("hahha"); %></span></h4>
+                </div>
+                <div class="price-category">
+                    <h4>Normal: <span class="normal-price">Prix Normal</span></h4>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

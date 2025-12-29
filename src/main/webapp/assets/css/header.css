@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Dhellia';
+    font-style: normal;
+    src: url('../font/DHELLIA.woff') format('woff');
+}
+
+
+body {
+    margin: 0;
+    top: 0;
+}
+
+/*header -------------------*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    
+    background: linear-gradient(to left, rgba(255, 136, 225, 0.534), rgba(255, 255, 255, 0.671));
+
+    color: rgb(148, 63, 77);
+
+    transition: all 0.2s;
+}
+
+header:hover {
+    background: rgba(0, 0, 0, 0.462);
+    color: white;
+}
+
+header div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header .name {
+    font-size: 45px;
+    font-family: 'Dhellia', sans-serif;
+
+    padding-left: 50px;
+
+    transition: 0.5s;
+}
+
+header .picture img {
+    width: auto;
+    height: 75px;
+} 
+
+header .picture {
+    padding-right: 50px;
+}
+
+/* header -----------------------.*/
+
+
+

@@ -1,0 +1,28 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package utils;
+
+/**
+ *
+ * @author patricia.razafimboah
+ */
+public class ErrorResponse extends Response {
+
+    private String message;
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public ErrorResponse(String status, String message) {
+        setStatus(status);
+        setMessage(message);
+    }
+}

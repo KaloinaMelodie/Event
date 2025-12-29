@@ -1,0 +1,21 @@
+.content h1 {
+    text-align: center;
+}
+
+.item-input {
+    display: flex;
+}
+
+.content .name {
+    width: 125px;
+}
+
+.specialite {
+    display: flex;
+    justify-content: space-around;
+}
+
+.spec {
+    padding: 20px;
+    border: 1px solid darkgray;
+}
