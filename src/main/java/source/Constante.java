@@ -11,7 +11,7 @@ import java.util.Arrays;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class Constante {
     public static ArrayList<Integer> numericTypes = new ArrayList<>(Arrays.asList(

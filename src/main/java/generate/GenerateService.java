@@ -11,7 +11,7 @@ import java.io.IOException;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class GenerateService {
     // package, Class

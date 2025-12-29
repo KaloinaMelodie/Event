@@ -7,7 +7,7 @@ package source;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class Heaven {
     static HashColTable listcoltable = new HashColTable();    

@@ -9,7 +9,7 @@ import source.ObjectBdd;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class Color extends ObjectBdd{
     Integer idColor;

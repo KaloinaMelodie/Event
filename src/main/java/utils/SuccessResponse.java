@@ -7,7 +7,7 @@ package utils;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class SuccessResponse extends Response{
 

@@ -15,7 +15,7 @@ import source.Col;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class GenerateCls {
 

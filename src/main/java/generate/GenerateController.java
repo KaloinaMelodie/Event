@@ -11,7 +11,7 @@ import java.io.IOException;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class GenerateController {
 //    necessaire: Class, class, TypeIdClass, package, ClassListe (maybe view), toStringID

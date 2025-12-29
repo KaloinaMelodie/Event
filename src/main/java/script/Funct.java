@@ -15,7 +15,7 @@ import org.w3c.dom.Node;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class Funct {
 

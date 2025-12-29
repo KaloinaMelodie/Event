@@ -7,7 +7,7 @@ package utils;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class Colorutil {
     public static String prixventecolor(Double prix){

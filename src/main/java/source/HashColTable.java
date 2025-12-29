@@ -21,7 +21,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class HashColTable extends HashMap<String, Object> {
 

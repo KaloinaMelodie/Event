@@ -7,7 +7,7 @@ import source.ObjectBdd;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class EmployeService {
     public static void create(ObjectBdd obj, Connection co)throws Exception{

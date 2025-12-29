@@ -7,7 +7,7 @@ package com.example.event;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 
 import java.sql.Timestamp;

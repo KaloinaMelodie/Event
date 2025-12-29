@@ -1,7 +1,7 @@
 <%-- 
     Document   : display
     Created on : 27 janv. 2023, 11:02:00
-    Author     : patricia.razafimboah
+    Author     : kaloina.melo
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8" isELIgnored="false" %>

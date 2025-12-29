@@ -10,7 +10,7 @@ import java.sql.Types;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class Col {
     String colname;

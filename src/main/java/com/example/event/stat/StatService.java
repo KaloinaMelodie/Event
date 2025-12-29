@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class StatService {
     public static ArrayList<FicheDevis> getListFicheDevis()throws Exception{

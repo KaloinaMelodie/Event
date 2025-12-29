@@ -11,7 +11,7 @@ import java.util.Locale;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class AfficheService {
     public static String[] dateHeure(Timestamp dateheure){

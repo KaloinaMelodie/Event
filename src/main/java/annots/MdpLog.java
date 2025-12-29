@@ -10,7 +10,7 @@ import java.lang.annotation.RetentionPolicy;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 @Retention(RetentionPolicy.RUNTIME)  
 public @interface MdpLog {

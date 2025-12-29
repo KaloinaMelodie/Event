@@ -12,7 +12,7 @@ import java.util.HashMap;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class Constante {
 

@@ -7,7 +7,7 @@ package exception;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class RequestException extends Exception{
     public RequestException(String message) {

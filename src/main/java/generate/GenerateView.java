@@ -13,7 +13,7 @@ import source.ObjectBdd;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class GenerateView {
 

@@ -14,7 +14,7 @@ import java.util.Vector;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class Reflection {
 

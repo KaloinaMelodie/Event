@@ -7,7 +7,7 @@ package script;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class InputTypes {
 

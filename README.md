@@ -127,6 +127,7 @@ Cette approche permet de générer automatiquement :
 
 Ainsi, **chaque nouvel objet issu de la base de données peut disposer instantanément d’une interface CRUD complète** avec un minimum d’effort.
 
+![alt text](img/image.png)
 ---
 
 ## Technologies Used / Technologies utilisées
@@ -146,21 +147,21 @@ Ainsi, **chaque nouvel objet issu de la base de données peut disposer instantan
 
 ## Administrator Backoffice / Backoffice Administrateur
 
-**EN:**
-The administrator manages all reference data required for event creation:
+**EN:** / **FR :**
+The administrator manages all reference data required for event creation: / L’administrateur gère l’ensemble des données de référence nécessaires à la création d’événements :
 
-* Management of **service types** (logistics, communication, shows, etc.).
-* Management of **venues and locations** (halls, open spaces, stadiums).
-* Management of **artists**, including pricing per hour or per day.
-* Management of **client information**.
+* Management of **service types** (logistics, communication, shows, etc.). / Gestion des **types de prestations** (logistique, communication, spectacle, etc.).
+![alt text](img/image-1.png)
 
-**FR :**
-L’administrateur gère l’ensemble des données de référence nécessaires à la création d’événements :
+* Management of **venues and locations** (halls, open spaces, stadiums). / Gestion des **lieux et espaces** (salles, terrains, espaces ouverts). 
+![alt text](img/image-2.png)
 
-* Gestion des **types de prestations** (logistique, communication, spectacle, etc.).
-* Gestion des **lieux et espaces** (salles, terrains, espaces ouverts).
-* Gestion des **artistes**, avec leurs tarifs par heure ou par jour.
-* Gestion des **informations clients**.
+* Management of **artists**, including pricing per hour or per day. / Gestion des **artistes**, avec leurs tarifs par heure ou par jour.
+![alt text](img/image-3.png)
+
+* Management of **client information**. / Gestion des **informations clients**.
+![alt text](img/image-4.png)
+
 
 ---
 
@@ -173,6 +174,9 @@ Employees use the application to manage operational event workflows:
 * Management of **event quotations**, including:
 
   * Adding multiple service types with price, quantity, and/or duration.
+  * **Duplicating an existing quote** to quickly create a new quote when the services are similar.
+    * This feature allows you to copy a previous quote.
+    * Items can then be modified only if necessary (prices, quantities, durations, location, etc.), thus avoiding having to re-enter everything.
   * Visualizing cost distribution per service through graphs.
   * Managing venue pricing by seat category and number of tickets sold.
   * Displaying a full financial summary:
@@ -189,6 +193,9 @@ Les employés utilisent l’application pour gérer les opérations événementi
 * Gestion des **devis événementiels**, incluant :
 
   * L’ajout de plusieurs prestations avec prix, quantité et/ou durée.
+  * La **duplication d’un devis existant** afin de créer rapidement un nouveau devis lorsque les prestations sont similaires.
+    * Cette fonctionnalité permet de copier un devis précédent.
+    * Les éléments peuvent ensuite être modifiés uniquement si nécessaire (prix, quantités, durées, lieu, etc.), évitant ainsi une ressaisie complète.
   * La visualisation graphique de la répartition des montants par prestation.
   * La gestion des prix des lieux selon les catégories de places et le nombre de billets vendus.
   * L’affichage d’un récapitulatif financier complet :
@@ -198,6 +205,14 @@ Les employés utilisent l’application pour gérer les opérations événementi
     * Bénéfice brut (hors taxes)
     * Bénéfice net
 
+![alt text](img/image-5.png)
+![alt text](img/image-6.png)
+---
+![alt text](img/image-7.png)
+![alt text](img/image-8.png)
+![alt text](img/image-9.png)
+![alt text](img/image-10.png)
+
 ---
 
 ## Conclusion / Conclusion
@@ -205,9 +220,7 @@ Les employés utilisent l’application pour gérer les opérations événementi
 **EN:**
 This **Event Management System** provides a powerful and extensible Java Web solution for managing events, services, and financial performance.
 Its generalized architecture significantly reduces development time by automatically generating CRUD interfaces from database objects.
-Future enhancements may include advanced reporting, taxation management, and multi-company support.
 
 **FR :**
 Ce **système de gestion événementielle** offre une solution Java Web puissante et évolutive pour la gestion des événements, des prestations et des performances financières.
 Son architecture généralisée réduit considérablement le temps de développement grâce à la génération automatique des interfaces CRUD à partir des objets de la base de données.
-Les évolutions futures pourraient inclure des rapports avancés, la gestion fiscale et le support multi-entreprises.

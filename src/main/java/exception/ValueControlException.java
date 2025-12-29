@@ -7,7 +7,7 @@ package exception;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class ValueControlException extends Exception{
     public ValueControlException(String message) {

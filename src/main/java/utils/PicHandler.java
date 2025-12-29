@@ -14,7 +14,7 @@ import org.apache.commons.io.FilenameUtils;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class PicHandler {
 

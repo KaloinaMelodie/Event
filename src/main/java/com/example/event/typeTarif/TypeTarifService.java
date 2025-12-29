@@ -5,7 +5,7 @@ import source.ObjectBdd;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class TypeTarifService {
     public static void create(ObjectBdd obj, Connection co)throws Exception{

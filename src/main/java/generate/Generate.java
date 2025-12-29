@@ -17,7 +17,7 @@ import source.ObjectBdd;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class Generate {
     //    necessaire: Class, package, ClassListe (maybe view), viewLink

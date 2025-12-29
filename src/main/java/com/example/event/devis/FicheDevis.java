@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class FicheDevis {
 

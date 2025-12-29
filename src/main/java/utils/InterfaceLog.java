@@ -9,7 +9,7 @@ import source.ObjectBdd;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  * @param <T>
  */
 public interface InterfaceLog<T extends ObjectBdd<T>> {

@@ -18,7 +18,7 @@ import source.Base;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 @MultipartConfig(fileSizeThreshold = 1024 * 1024 * 10, // 10 MB 
         maxFileSize = 1024 * 1024 * 50, // 50 MB

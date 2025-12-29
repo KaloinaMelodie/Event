@@ -16,7 +16,7 @@ import source.ObjectBdd;
 
 /**
  *
- * @author patricia.razafimboah The default login checker utilizes the MD5
+ * @author kaloina.melo The default login checker utilizes the MD5
  * cryptographic method for encrypting passwords stored in the database.
  */
 public abstract class DefaultLog extends ObjectBdd {

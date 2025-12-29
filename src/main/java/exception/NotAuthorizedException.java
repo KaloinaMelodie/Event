@@ -7,7 +7,7 @@ package exception;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class NotAuthorizedException extends Exception{
     String status;

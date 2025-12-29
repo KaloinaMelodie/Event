@@ -7,7 +7,7 @@ package exception;
 
 /**
  *
- * @author patricia.razafimboah
+ * @author kaloina.melo
  */
 public class NullIdSpaceStorageException  extends Exception{
     public NullIdSpaceStorageException(String message) {
